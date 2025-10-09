@@ -1,0 +1,41 @@
+.name
+{
+width: 120px;
+height: 32px;
+margin-bottom: 8px;
+border-radius: 5px;
+padding-left: 9px;
+border-width: 1px;
+}
+.lastName
+{
+width: 120px;
+height: 32px;
+margin-bottom: 8px;
+border-radius: 5px;
+padding-left: 9px;
+border-width: 1px;
+}
+.eMail
+{
+  display: block;
+  width: 255px;
+  height: 32px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 8px;
+  border-width: 1px;
+}
+.buttonSignUp
+{
+  background-color: rgb(18, 132, 255);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  width: 270px;
+  height: 38px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+
+}
