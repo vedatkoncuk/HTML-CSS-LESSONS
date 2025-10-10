@@ -11,6 +11,7 @@
       }
       .channelProfile
       {
+        cursor: pointer;
         border-radius: 30px;
         width: 40px;
         margin-top: 10px;

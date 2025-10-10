@@ -1,0 +1,65 @@
+.profile
+{
+  border-radius: 40px;
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+}
+.profileDiv
+{
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  
+}
+.personalInformationDiv
+{
+  color: rgb(96, 96, 96);
+  margin-top: 0px;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 8px;
+  font-family: roboto,arial;
+  width: 200px;
+}
+.profileName
+{
+  margin-top: 2px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.profileTitle
+{
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+.profilePopular
+{
+  margin-top: 0px;
+}
+.buttonDiv
+{
+  display: inline-block;
+  margin-top: 20px;
+}
+.button
+{
+  border: none;
+  vertical-align: middle;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  width: 72px;
+  height: 38px;
+  border-radius: 8px; 
+  padding: center;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
