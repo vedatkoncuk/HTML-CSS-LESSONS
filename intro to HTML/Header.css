@@ -5,6 +5,17 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index:100;
+
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(231, 231, 231);
 }
 .leftSection
 {
@@ -32,11 +43,9 @@
 }
 .search-bar
 {
-  width: 0px;
   flex: 1;
   height: 35px;
   padding-left: 12px;
-  border-radius: 20px;
   border-width: 1px;
   font-size: 16px;
   border-style: solid;
@@ -55,14 +64,15 @@
 }
 .searchButton
 {
-  width: 65px;
+  width: 66px;
   height: 40px;
   background-color: rgb(241, 241, 241);
   border-style: solid;
   border-width: 1px;
-  border-color:rgb(185, 185, 185);
-  border-radius: 20px;
+  border-color:rgb(192, 192, 192);
   margin-right: 10px;
+  margin-left: -1;
+  cursor: pointer;
 }
 .voiceButtonIcon
 {
@@ -89,23 +99,44 @@
 }
 .uploadIcon
 {
-  width: 32px;
+  width: 28px;
+}
+.notificationIconContainer
+{
+  position: relative;
 }
 .notificationIcon
 {
-  width: 32px;
+  width: 28px;
   margin-right: 10px;
+}
+.notificationCount
+{
+  position: absolute;
+  top:-1px;
+  right: 6px;
+  background-color: rgb(218, 0, 0);
+  color: white;
+  border-radius: 20px;
+  width: 10px;
+  height: 10px;
+  font-size: 12px;
+  font-family: roboto,arial;
+  padding-left:6px;
+  padding-right:2px;
+  padding-bottom:6px;
+  padding-top:1px;
 }
 .appIcon
 {
-  width: 32px;
+  width: 28px;
   margin-left: 10px;
   margin-right: 10px;
 }
 .channelProfilIcon
 {
- width: 39px;
- height: 39px;
+ width: 34px;
+ height: 34px;
  border-radius: 20px;
  margin-right: 25px;
  margin-top: 0px;
